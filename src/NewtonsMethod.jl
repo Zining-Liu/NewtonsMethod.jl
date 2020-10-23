@@ -22,7 +22,7 @@ function newtonroot(f, f_prime; x_0=0.5, tolerance=1E-7, maxiter=1000)
     end
 end
 
-export newtonroot
+export(newtonroot)
 
 
 using ForwardDiff
@@ -52,6 +52,6 @@ function newtonroot1(f; x_0=0.5, tolerance=1E-7, maxiter=1000)
 
 end
 
-export newtonroot1
+export(newtonroot1)
 
 end # module
