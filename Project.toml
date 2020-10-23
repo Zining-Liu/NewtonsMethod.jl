@@ -1,0 +1,13 @@
+name = "NewtonsMethod"
+uuid = "78c0e697-f9dc-428d-9ba0-e718868703c4"
+authors = ["Zining-Liu <71028840+Zining-Liu@users.noreply.github.com>"]
+version = "0.1.0"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
